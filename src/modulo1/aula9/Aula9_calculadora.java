@@ -1,3 +1,4 @@
+/*
 package modulo1.aula9;
 
 import java.util.Scanner;
@@ -16,11 +17,17 @@ public class Aula9_calculadora {
         double segundoNumero = scanner.nextDouble();
 
 
-        System.out.println(soma(primeiroNumero, segundoNumero));
-        System.out.println(subtracao(primeiroNumero, segundoNumero));
-        System.out.println(multiplicacao(primeiroNumero, segundoNumero));
-        System.out.println(divisao(primeiroNumero, segundoNumero));
+        double r_soma = soma(primeiroNumero, segundoNumero));
+        double r_sub = subtracao(primeiroNumero, segundoNumero));
+        double r_multi = multiplicacao(primeiroNumero, segundoNumero));
+        double r_div = divisao(primeiroNumero, segundoNumero);
 
+
+
+    }
+
+    static void imprimirResultado(String nomeOperacao, double resultado){
+        System.out.printf("\n o resultado da %s é %.2f", nomeOperacao, resultado);
     }
 
     static void cabecalho(){
@@ -49,3 +56,4 @@ public class Aula9_calculadora {
         return calculo;
     }
 }
+*/
